@@ -37,3 +37,7 @@ swagger:
 #  velocity:
 #    resource-loader-path: classpath:/templates/
 #    check-template-location: true
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://192.168.1.225:14268/api/traces

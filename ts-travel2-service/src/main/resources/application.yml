@@ -14,3 +14,7 @@ spring:
       port: 27017
 swagger:
   controllerPackage: travel2.controller
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://192.168.1.225:14268/api/traces

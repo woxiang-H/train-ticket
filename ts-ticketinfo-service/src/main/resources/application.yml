@@ -9,3 +9,7 @@ spring:
 
 swagger:
   controllerPackage: ticketinfo.controller
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://192.168.1.225:14268/api/traces

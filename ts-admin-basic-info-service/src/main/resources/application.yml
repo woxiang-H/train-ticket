@@ -6,4 +6,8 @@ spring:
     name: ts-admin-basic-info-service
 
 swagger:
-  controllerPackage: adminbasic.microservice
+  controllerPackage: adminbasic.microservic
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://192.168.1.225:14268/api/traces

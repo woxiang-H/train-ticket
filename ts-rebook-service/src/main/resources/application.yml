@@ -26,3 +26,7 @@ swagger:
 #          destination: ts-rebook-service-queue-output
 #          contentType: text/plain
 #          binder: rabbit
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://192.168.1.225:14268/api/traces
